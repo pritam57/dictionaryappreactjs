@@ -1,0 +1,49 @@
+.mainc {
+    margin: 20px;
+    padding: 20px;
+}
+
+.heading {
+    color: brown;
+
+}
+
+@media (max-width: 2048px) {
+    .mainc {
+        background-color: yellow;
+
+
+    }
+
+    .heading {
+        font-size: x-large;
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+    .mainc {
+        background-color: yellow;
+
+
+    }
+
+    .heading {
+        font-size: x-large;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .mainc {
+        background-color: bisque;
+    }
+}
+
+@media (max-width : 468px) {
+    .mainc {
+        background-color: chartreuse;
+    }
+}

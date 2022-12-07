@@ -1,0 +1,93 @@
+.heading {
+    color: brown;
+
+}
+
+.main {
+
+    margin: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 2048px) {
+    .main {
+        background-color: yellow;
+
+    }
+
+    .heading {
+        font-size: x-large;
+    }
+
+    .inputbox {
+        height: 20px;
+        width: 200px;
+        margin-left: 1%;
+    }
+
+    .btn {
+        height: 20px;
+        width: 100px;
+        margin-left: 3%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .btn1 {
+
+        margin-bottom: 1%;
+    }
+
+    .block {
+        padding-left: 2%;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .main {
+        background-color: green;
+
+    }
+
+    .heading {
+        font-size: x-large;
+    }
+
+    .inputbox {
+        height: 20px;
+        width: 200px;
+        margin-left: 1%;
+    }
+
+    .btn {
+        height: 20px;
+        width: 100px;
+        margin-left: 3%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .btn1 {
+
+        margin-bottom: 1%;
+    }
+
+    .block {
+        padding-left: 2%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .main {
+        background-color: bisque;
+    }
+}
+
+@media (max-width : 468px) {
+    .main {
+        background-color: chartreuse;
+    }
+}
